@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "desktop-huffman-coder"
+version = "0.1.0"
+description = ""
+authors = ["sanek <alexandr.panteleev2000@gmail.com>"]
+readme = "README.md"
+packages = [{include = "desktop_huffman_coder"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+pyside6 = "^6.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
